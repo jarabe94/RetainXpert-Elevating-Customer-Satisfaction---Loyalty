@@ -51,8 +51,9 @@ The divergent validity test results indicate that the correlations between these
 ### 4.4.	Data Normalization
 This step is essential for organizing and structuring the data to eliminate redundancy and improve data integrity. Using MS Excel, we identified dependencies, determined primary and foreign keys, and split the data into appropriate tables to achieve a normalized dataset structure. The dataset was normalized to 3NF removing all partial and transitive dependencies. The following ERD illustrates the dataset structure after normalization: 
 
+![image](images/project_erd.png)
 ### 4.5.	Loading to Power BI
-After completing the necessary data preprocessing and calculations, the normalized dataset was loaded into Power Bi to create the interactive dashboard.
+After completing the necessary data preprocessing and calculations, the normalized dataset was loaded into Power BI to create the interactive dashboard.
 
 ## 5.	KPIs Definition
 The following KPIs were identified as relevant for the analysis and the dashboard creation, based on the information present in the dataset:
@@ -63,15 +64,17 @@ The following KPIs were identified as relevant for the analysis and the dashboar
 -	Average Complaints Resolution Time: This KPI measures the average time taken by the insurer to resolve complaints. Like the previous one, a shorter resolution time can enhance customer satisfaction and retention.
 
 ## 6.	Dashboard Overview
-
+![image](images/retainxpert_dashboard.png)
 ## 7.	Analysis Questions
 ### 7.1.	Is there any specific coverage type that has a higher retention rate? What is its Customer Lifetime Value?
+![image](images/analysis_question_1.png)
 
 Type D coverage has the highest average Customer Retention Rate with an average of 91.98% and the highest Customer Lifetime Value (CLV) of CAD 11,870. However, when we look at the retention rate trend, we can see its retention has decreased since 2019. 
 On the other hand, Type A coverage has the most stable Customer Retention Rate throughout the years but has the lowest CLV of CAD 3,260. 
 This shows that IceCrystal should focus more on strategies to increase the retention of customers with type D coverage, even more, considering that this is the segment that provides the most value to the company.
 
 ### 7.2.	Which KPIs identified during the analysis have a direct impact on customer retention?
+![image](images/analysis_question_2.png)
 
 The short answer is the Average Customer Satisfaction Score and the Average Complaint Resolution Time. Both have a direct impact on customer retention. 
 
@@ -82,12 +85,14 @@ When considering Complaint Resolution Time, a higher value in a given year appea
 Interestingly, Claim Settlement Time does not seem to have a significant impact on customer retention. This finding aligns with existing studies indicating that customers often anticipate delays in claim processing and prioritize the outcome of the claim over the processing time.
 
 ### 7.3.	Is there any purchase method IceCrystal should further enhance to retain high-value customers?
+![image](images/analysis_question_3.png)
 
 Yes, the company should prioritize direct purchases with the IceCrystal Sales Team. Despite having the lowest retention rate at 91.6 customers who acquire their car insurance directly generate the highest Customer Lifetime Value of CAD 7890. This indicates that these customers will yield greater profits for the company over the duration of their business relationship.
 
 On the other hand, third-party agents have a slightly better retention rate of 91.75%. This could be explained by their provision of more personalized service. However, their commission represents from 8 to 10% of the premium value, resulting in a lower Customer Lifetime Value of CAD 6580. Thus, while third-party agents may offer personalized assistance, their involvement diminishes the long-term profitability of customer relationships.
 
 ### 7.4.	How satisfied are the customers with the service they receive?
+![image](images/analysis_question_4.png)
 
 The average Satisfaction Score over the five-year period stands at 4.06 out of 5 points, indicating a generally high level of satisfaction among customers with the auto insurance service provided by IceCrystal.
 
