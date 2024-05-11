@@ -115,8 +115,6 @@ Moving forward, IceCrystal can capitalize on RetainXpert’s insights to:
 -	Reduce complaint resolution time for higher satisfaction.
 -	Optimize web portal and phone calls for streamlined sales and claim processes providing a better customer experience.
 
-## PowerBI Interactive Dashboard Link
-
 ## Contributors
 Chris Portugalisa, Mohit Sharma
 
