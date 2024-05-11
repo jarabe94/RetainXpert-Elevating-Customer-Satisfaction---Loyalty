@@ -1,4 +1,4 @@
-# RetainXpert-Elevating-Customer-Satisfaction-&-Loyalty
+# RetainXpert: Elevating Customer Satisfaction & Loyalty
 
 ## 1.	Problem Statement
 The car insurance industry is highly competitive, with several providers racing for customer loyalty. As customer acquisition costs rise, insurance companies in Ontario need to focus on customer retention to look for sustainable growth and profitability.
